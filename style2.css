@@ -1,0 +1,104 @@
+/* Background Styles */
+body {
+    background-color: hsl(0, 0%, 90%);
+}
+
+#answer {
+    background-color: hsl(0, 0%, 93%);
+}
+
+#keys {
+    background-color: hsl(0, 5%, 81%);
+}
+
+/* Text Styles */
+.text {
+    color: hsl(60, 10%, 19%);
+}
+
+/* Button Styles */
+.blueBtn {
+    background-color: hsl(185, 42%, 37%);
+    box-shadow: 0 3px hsl(185, 58%, 25%);
+}
+
+.numberBtn {
+    background-color: hsl(45, 7%, 89%);
+    box-shadow: 0 3px hsl(35, 11%, 61%);
+    color: hsl(60, 10%, 19%);
+}
+
+.symbol {
+    background-color: hsl(45, 7%, 89%);
+    box-shadow: 0 3px hsl(35, 11%, 61%);
+    color: hsl(60, 10%, 19%);
+}
+
+#equals {
+    background-color: hsl(25, 98%, 40%);
+    box-shadow: 0 3px hsl(25, 99%, 27%);
+    color: hsl(0, 0%, 100%);
+}
+
+/* Toggle Styles*/
+#toggle {
+    background-color: hsl(6, 63%, 50%);
+    color: hsl(6, 63%, 50%);
+}
+
+#theme {
+    background-color:hsl(0, 5%, 81%);
+    text-align: center;
+}
+
+/* Button State Styles */
+.numberBtn:hover {
+    cursor: pointer;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.numberBtn:active {
+    transform: translate(0px, 3px);
+    box-shadow: none;
+    transform: box-shadow 250ms linear;
+}
+
+.symbol:hover {
+    cursor: pointer;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.symbol:active {
+    transform: translate(0px, 3px);
+    box-shadow: none;
+    transform: box-shadow 250ms linear;
+}
+
+.symbol:focus {
+    translate: 0px 3px;
+    background-color: red;
+    color: white;
+}
+
+.blueBtn:hover {
+    cursor: pointer;
+    background-color: hsl(176, 100%, 44%);
+    text-decoration: underline;
+}
+
+.blueBtn:active {
+    transform: translate(0px, 3px);
+    box-shadow: none;
+    transform: box-shadow 250ms linear;
+}
+
+#equals:hover {
+    cursor: pointer;
+    background-color: hsl(6, 82%, 61%);
+}
+
+#equals:active {
+    transform: translate(0px, 3px);
+    box-shadow: none;
+    transform: box-shadow 250ms linear;
+}

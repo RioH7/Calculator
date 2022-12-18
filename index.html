@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!----- CSS & JS ----->
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="style1.css" rel="stylesheet" type="text/css">
+  <script src="main.js" defer></script>
+
+  <!----- Fonts ----->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+
+  <!----- Title & Favicon----->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Calculator</title>
+</head>
+<body>
+  <main class="grid">
+
+    <section class="container">
+      <div class="title" id="title">
+
+        <h3 class="text">calc</h3>
+        <!----- Toggle Switch----->
+        <span id="themeNums" class="text">1 2 3</span>
+        <span id="label" class="text">THEME</span>
+        <button type="radio" id="theme" onclick="changeTheme()"><span id="toggle">0</span></button>
+        
+        </div>
+      </div>
+      
+      <div id="answer">
+        <h1 class="text" id="result">0</h1>
+      </div>
+
+      <div id="keys">
+        <button value="7" class="numberBtn">7</button>
+        <button value="8" class="numberBtn">8</button>
+        <button value="9" class="numberBtn">9</button>
+        <button value="del" class="blueBtn">DEL</button>
+        <button value="4" class="numberBtn">4</button>
+        <button value="5" class="numberBtn">5</button>
+        <button value="6" class="numberBtn">6</button>
+        <button value="+" class="symbol">+</button>
+        <button value="1" class="numberBtn">1</button>
+        <button value="2" class="numberBtn">2</button>
+        <button value="3" class="numberBtn">3</button>
+        <button value="-" class="symbol">-</button>
+        <button value="." class="numberBtn">.</button>
+        <button value="0" class="numberBtn">0</button>
+        <button value="/" class="symbol">/</button>
+        <button value="*" class="symbol">x</button>
+        <button value="reset" id="reset" class="blueBtn">RESET</button>
+        <button value="=" id="equals">=</button>
+      </div>
+
+    </section>
+
+  </main>
+</body>
+</html>
