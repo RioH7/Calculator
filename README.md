@@ -23,7 +23,7 @@ Users should be able to:
 - Adjust the color theme based on their preference
 
 ### Screenshot
-./images/theme-1.png
+[](./images/theme-1.png)
 
 ### Links
 
