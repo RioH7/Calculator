@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/RioH7/Calculator
-- Live Site URL: https://rioh7.github.io/
+- Live Site URL: https://rioh7.github.io/Calculator/
 
 ## My process
 
